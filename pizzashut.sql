@@ -139,5 +139,5 @@ FROM
     orders_details ON orders_details.pizza_id = pizzas.pizza_id
 GROUP BY pizza_types.name
 ORDER BY revenue DESC
-LIMIT 3;mm
+LIMIT 3;
     
